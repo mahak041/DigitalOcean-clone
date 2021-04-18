@@ -466,3 +466,150 @@ body{
 .footer--bottom--right img{
     -webkit-filter:invert(50%);
 }
+
+
+@media screen and (max-width: 600px) {
+    .mainNav hr{
+        display: none;
+    }
+    .upperNav{
+        display: none;
+    }
+    .hiddenNav{
+        display: none;
+    }
+    .banner{
+        width: 100%;
+    overflow: hidden;
+    }
+    .banner video{
+        width: max-content;
+    }
+    .banner--content {
+      flex-direction: column;
+      height: 801px;
+    }
+    .banner--content--left {
+        color: white;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner--content--right{
+    display: flex;
+    border: white;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 50px; */
+    height: 260px;
+    }
+    .banner--content--right--heading{
+        padding: 15px;
+    }
+    .banner--content--right--form input {
+        width: 256px;
+        height: 47px;
+        margin: 10px 0px 0px 7px;
+    }
+    .banner--content--right--form button {
+        width: 260px;
+        height: 51px;
+        margin-left: 38px;
+        margin: 10px 0px 0px 7px;
+    }
+    .banner--form--button--right {
+        padding: 10px 9px 10px;
+        color: #0069ff;
+    }
+    .banner--form--button--left {
+        padding: 10px;
+    }
+    .banner--form--button button {
+        height: 50px;
+        margin: 10px;
+    }
+    .details{
+        padding: 48px 33px;
+    }
+    .details--caption{
+    width: 270px;
+    height: 115.67px;
+    }
+    .details--card {
+        width: auto;
+        height: auto;
+    }
+    .showcase{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    }
+    .issues--headings {
+        margin: 32px 0px 1px 44px;
+        font-size: 14px;
+    }
+    .issues--caption {
+        padding: 22px 44px;
+        font-size: 15px;
+    }
+    .issues--card--description {
+        width: auto;
+        /* align-items: center; */
+        /* height: auto; */
+    }
+    .mission--heading {
+        font-size: 17px;
+        margin-top: 40px;
+        padding: 40px 47px 0px;
+    }
+    .mission--caption {
+        padding: 13px 47px;
+        font-size: 21px;
+        margin: auto
+    }
+    .mission--description--card{
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+    }
+    .mission--description--card--content{
+        align-items: center;
+        line-height: 160%;
+        width: 130%;
+    }
+    .ready {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 228px;
+        padding-bottom: 30px;
+    }
+    .ready--right {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .footer hr{
+        width: 85%;
+        margin-left: 25px
+
+    }
+    .footer--top{
+        flex-wrap: wrap;
+        font-size: 15px;
+        justify-content: space-evenly;
+    }
+    .footer--bottom{
+        flex-direction: column;
+        padding: 32px 12px 44px 12px
+    }
+    .footer--bottom--left img {
+        margin-right: 40px;
+        margin: 0px 40px 0px 20px;
+    }
+    .footer--bottom--right {
+        padding: 40px 0px 0px 0px;
+    }
+
+    }
