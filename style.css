@@ -477,6 +477,9 @@ body{
     .mainNav hr{
         display: none;
     }
+    .mainNav{
+        position: static;
+    }
     .menuIcon{
         display: block;
         margin-right: 20px;
